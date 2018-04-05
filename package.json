@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "universal-analytics": "0.4.12",
-    "ejs": "2.4.1",
+    "ejs": "2.5.5",
     "bootstrap": "4.0.0-alpha.6",
     "express": "4.13.3"
   },
