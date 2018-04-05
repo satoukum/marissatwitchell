@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <title>Marissa Twitchell</title>
+  </head>
+  <!-- Navigation Bar -->
+  <%- include ../partials/nav.ejs %>
+  
+  <body>
+
+  <div class="hidden-lg-up"></br></br></div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="white display-3">Marissa Twitchell</h1>
+          <p class="light-purple lead">Software Development Engineer with over 5 years of experience in a variety of fields including technology, travel, telecommunications, non-profit, and retail.</p>
+        </div>
+        <div class="col-md-6">
+          <img id="profile-img" src="marissa.jpg" alt="Marissa Twitchell">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Detailed Resume -->
+    <div class="container">
+      <!-- About Me -->
+      <div id="headingAboutMe">
+        <h7 data-toggle="collapse" data-target="#collapseAboutMe" class="clickable highlight" data-target="#collapseAboutMe" aria-expanded="true" aria-controls="collapseAboutMe">
+          About Me:
+        </h7>
+      </div>
+      <div id="collapseAboutMe" class="collapse show" aria-labelledby="headingOne">
+        <!-- role="tabpanel" -->
+        <div class="card-block">
+          <img id="profile-img-mobile" class="float-left rounded" src="marissa.jpg" alt="Marissa Twitchell" hspace="15">
+          <p>Hi, my name is Marissa. I have five years of software development experience in a variety of fields including technology, travel, telecommunications, non-profit, and retail. I live in the Seattle area where I consider myself a full-stack developer, which means I feel comfortable building out features anywhere on the development stack according to feature requirements from product owners and UI/UX folk and I own those changes end-to-end. I enjoy working on software applications, responsive websites, mobile applications, and querying databases.</p>
+        </div>
+      </div>
+      <!-- Developer Roles -->
+      <div id="headingDevRoles">
+        <h7 data-toggle="collapse" data-target="#collapseDevRoles" class="clickable highlight" data-target="#collapseDevRoles" aria-expanded="true" aria-controls="collapseDevRoles">
+          Developer Roles/Programming Languages:
+        </h7>
+      </div>
+      <div id="collapseDevRoles" class="collapse show" aria-labelledby="headingOne">
+        <div class="card-block">
+          <p class="card-text">My first introduction to programming was writing Java code. I remember setting up my environment to run the Java Virtual Machine on my Windows laptop and writing an initial command line application that could accept number inputs and performed simple calculations on the user-specified inputs. Since this humble beginning learning java, I have gained exposure to several programming languages and development stacks and have switched my preferred development operating platform to a Mac, although I currently use a Windows machine to work on Microsoft Excel. Below I have summarized my work history by some of my developer roles and their associated development stacks:</p>
+        </div>
+      </div>
+      <!-- Developer Roles Detail -->
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <ul class="list-group">
+		  <!-- Windows Software Developer (C++) -->
+		  <li data-toggle="collapse" data-target="#collapseWindowsSoftwareDeveloper" href="#collapseWindowsSoftwareDeveloper" data-parent="#accordion" class="clickable list-group-item">
+            <h7>
+              <span class="rwd-line">Windows Software Developer </span>(C++)
+              <span class="caret"></span>
+            </h7>
+          </li>
+          <div id="collapseWindowsSoftwareDeveloper" class="collapse" role="tabpanel">
+            <!-- show -->
+            <div class="card-block">
+              <p class="card-text">Most recently I work on a Windows C++ application used by 120 million people.</p>
+              <p class="card-text">I enhanced exisiting features on a mature application's codebase to improve its scaling capability so that the program is crisp and not blurry on high dpi monitors and mixed dpi configurations.</p>
+			  <p class="card-text">I performed high priority bug fixes for top customers of the application.</p>
+            </div>
+          </div>
+          <!-- Full-Stack Web Application Developer (Java/Spring) -->
+          <li data-toggle="collapse" data-target="#collapseFullStackJava" href="#collapseFullStackJava" data-parent="#accordion" class="clickable list-group-item">
+            <h7>
+              <span class="rwd-line">Full-Stack Web Application Developer </span>(Java/Spring)
+              <span class="caret"></span>
+            </h7>
+          </li>
+          <div id="collapseFullStackJava" class="collapse" role="tabpanel">
+            <!-- show -->
+            <div class="card-block">
+              <p class="card-text">I spent about three years working predominantly on Java/Spring applications.</p>
+              <p class="card-text">On a team of five developers, we owned development for a product feature that helps users remember their searches so that they can pick up shopping where they left off. I use front-end technologies such as HBS, JavaScript, CSS, LESS and spend time focusing on making new feature enhancements accessible, available on multiple browsers, responsive, and released behind A/B tests.</p>
+              <p class="card-text">On one mammoth-project codebase, I performed work on a legacy website application maintained by hundreds of developers. I helped migrate portions of the website to have responsive pages and released new features behind A/B tests.</p>
+              <p class="card-text">On another project I worked in a group of two developers to design and build an end-to-end application that helped automate a manual, biweekly process. This project required building out a service endpoint to retrieve data from an existing database, a new Java/Spring application that acted as a rules engine, storage in AWS S3, a simple user interface for business owners to update the rules, and a Jenkins job to schedule the application.</p>
+            </div>
+          </div>
+          <!-- Mobile Application Developer (iOS/Swift 2) -->
+          <li data-toggle="collapse" data-target="#collapseMobile" href="#collapseMobile" data-parent="#accordion" class="clickable list-group-item">
+            <h7>
+              <span class="rwd-line">Mobile Application Developer </span>(iOS/Swift 2, Android)
+              <span class="caret"></span>
+            </h7>
+          </li>
+          <div id="collapseMobile" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <p class="card-text">I worked on implementing the look-and-feel of a front-page feature on an iOS application with more than 400k downloads. I gained familiarity with custom extensions, exposing data to the view, and writing Visual Format Language.</p>
+              <p class="card-text">Previously as a graduate project, I created an Android version proof-of-concept (POC) for a Meal Planning app (<a href="https://github.com/satoukum/TastyPlanner/">link</a>). I also created company-wide reference implementation to handle push notifications on the Android platform (<a href="https://parivedasolutions.wordpress.com/native-android/">link</a>).</p>
+            </div>
+          </div>
+          <!-- SQL Developer -->
+          <li data-toggle="collapse" data-target="#collapseSQL" href="#collapseSQL" data-parent="#accordion" class="clickable list-group-item">
+            <h7>
+              <span class="rwd-line">Query Developer </span>(SQL, NoSQL)
+              <span class="caret"></span>
+            </h7>
+          </li>
+          <div id="collapseSQL" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <p class="card-text">I had the opportunity to spend months writing adhoc SQL queries to help pull data from large data sources. Now with that experience I enjoy writing queries to gain insights in any querying language. I feel comfortable filtering, joining, grouping, and manipulating data to get needed answers, reading documentation, and also writing dashboard queries to help monitor system health. Here are some query language tools I have used:</p>
+              <ul>
+                <li>Microsoft SQL Server (MSS)</li>
+                <li>Splunk Query Language (for reading system logs)</li>
+                <li>Mongo DB Querying</li>
+                <li>Spark SQL (AWS S3 storage)</li>
+                <li>Netezza SQL (IBM Netezza database)</li>
+                <li>HiveQL (Hadoop/Hive database)</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Test Automation Developer (Ruby/Watir/Cucumber) -->
+          <li data-toggle="collapse" data-target="#collapseQA" href="#collapseQA" data-parent="#accordion" class="clickable list-group-item">
+            <h7>
+              <span class="rwd-line">Test Automation Developer </span>(Ruby/Watir/Cucumber, PhantomJS)
+              <span class="caret"></span>
+            </h7>
+          </li>
+          <div id="collapseQA" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <p class="card-text">Once a project is deemed viable, unit tests and automated regression testing can help save maintenance time and help ensure product quality. I wrote Given-When-Then Cucumber acceptance test cases for new and existing features to increase code coverage and used Ruby code in conjunction with the Watir library for down-the-line acceptance testing ran by a Jenkins job.</p>
+              <p class="card-text">I also used headless browser PhantomJS to verify deep-linking project redirected users to the expected endpoint.</p>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <!-- Version Control -->
+      <div id="headingVCS">
+        <h7 data-toggle="collapse" class="clickable highlight" data-target="#collapseVCS" aria-expanded="true" aria-controls="collapseVCS">
+          Version Control/Repositories:
+        </h7>
+      </div>
+      <div id="collapseVCS" class="collapse show" aria-labelledby="headingVCS">
+        <div class="card-block">
+          <p>Throughout my experience as a developer, I have had the opportunity to program in many codebases. My version control experience in SVN, Perforce, Source Depot, and Git helps me quickly ramp up and begin contributing to projects new to me. Using Git I feel confident cloning new repositories, creating pull requests, and following readme instructions to get projects running locally. I am also able to get around using more challenging topics such as forking, setting up remotes, and rebasing. I firmly believe development projects should reside in some sort of version control repository and that gaining proficiency in a version control system is a must for developers. Although I primarily work in corporate repositories where my code contributions are not publically available, I do have public profiles on StackOverflow.com (<a href="https://stackoverflow.com/users/1483546/satoukum">link</a>), Github.com (<a href="https://github.com/satoukum ">link</a>), and several years ago I created a channel with more than 300k views on YouTube.com that includes a tutorial about using SVN (<a href="https://www.youtube.com/watch?v=4yola1Q9KEQ">link</a>).</p>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div id="headingContact">
+        <h7 data-toggle="collapse" class="clickable highlight" data-target="#collapseContact" aria-expanded="true" aria-controls="collapseContact">
+          Contact Me:
+        </h7>
+      </div>
+      <div id="collapseContact" class="collapse show" aria-labelledby="headingContact">
+        <div class="card-block">
+          <p>I am always looking for new possibilities. If you're interested and I can make the time, I'd love to talk. To get in touch, message me through my public profile on LinkedIn.com (<a href="https://www.linkedin.com/in/marissatwitchell/">link</a>) or send me an email at <img src="email.png" alt="Email"/>.</p>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+
+  <%- include ../partials/footer.ejs %>
+
+</html>

@@ -1,0 +1,87 @@
+
+/** Mobile Breakpoint Media Queries */
+@media (max-width: 48em) {
+	.rwd-line {
+		display: block;
+	}
+	#profile-img {
+		display: none;
+	}
+}
+@media (min-width : 48em) {
+	#profile-img-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 75em) {
+  .display-3 {
+	font-size: 4rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .display-3 {
+	font-size: 2.5rem;
+  }
+}
+
+/** Styling */
+.jumbotron {
+	background-color: #563d7c;
+}
+.white {
+	color: white;
+}
+.light-purple {
+	color: #ae9acd;
+}
+
+.caret {
+  display: inline-block;
+  margin-left: .3em;
+  vertical-align: middle;
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-left: .3em solid transparent;
+}
+
+.brand-container {
+	padding-top: 1.7em;
+	padding-bottom: 0.3em;
+}
+
+.navbar-light {
+	background-color: white;
+}
+
+#profile-img {
+	max-width: 9em;
+	outline-color: #ae9acd;
+    outline-style: solid;
+    outline-width: 0.1em;
+    border: 0.5em solid transparent;
+}
+#profile-img-mobile {
+	max-width: 7em;
+}
+
+#accordion {
+	padding-bottom:1.25em;
+}
+
+#footer {
+	background-color: #f7f7f7;
+	padding: 1.25em;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.highlight {
+	padding: 0.25em;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+}
