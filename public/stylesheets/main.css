@@ -1,6 +1,6 @@
 
 /** Mobile Breakpoint Media Queries */
-@media (max-width: 47em) {
+@media (max-width: 48em) {
 	.rwd-line {
 		display: block;
 	}
